@@ -1,12 +1,76 @@
-# React + Vite
+#  Dynamic Portfolio App – Lab 4 (React Router + Auth + Transitions)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern **React + Vite + Tailwind CSS** single-page application that demonstrates **dynamic routing**, **protected routes**, and **authentication** using `React Router v6` and `React Context`. It also includes **page transition animations** via `framer-motion`.
 
-Currently, two official plugins are available:
+> Built for Lab 4: Dynamic Routing (React Router)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![image](https://github.com/user-attachments/assets/54c36dcf-bd11-4800-93f5-80327158e407)
+
+
+![image](https://github.com/user-attachments/assets/6556166e-e2c5-4baa-937e-b04f48dcb09e)
+
+
+---
+
+##  Features
+
+- Dynamic route generation from project data (`/projects/:slug`)
+- Protected route for admin page (`/admin`)
+- Authentication using React Context (`login()` / `logout()`)
+- Conditional rendering in navbar based on login state
+- Page transitions using `framer-motion`
+- Modern responsive UI with Tailwind CSS
+-  Custom Footer and right-aligned navigation
+
+---
+
+##  Project Structure
+``` src/
+├── App.jsx
+├── main.jsx
+├── data/
+│ └── projects.js
+├── context/
+│ └── AuthContext.jsx
+├── components/
+│ ├── Navbar.jsx
+│ └── Footer.jsx
+├── pages/
+│ ├── ProjectsIndex.jsx
+│ ├── ProjectDetail.jsx
+│ ├── Login.jsx
+│ ├── Admin.jsx
+│ └── NotFound.jsx
+├── routes/
+│ └── ProtectedRoute.jsx
+
+```
+
+## Technologies Used
+
+- [React]
+- [React Router v6]
+- [Tailwind CSS]
+- [Vite]
+- [Framer Motion]
+
+## Clone the repository
+
+```bash
+git clone https://github.com/HaidaMarese/lab4-portfolio-router.git
+cd lab4-portfolio-router
+```
+
+## Install dependencies
+- npm install
+- npm run dev
+
+
+
+
+
+
