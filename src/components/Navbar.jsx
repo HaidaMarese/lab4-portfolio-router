@@ -7,10 +7,7 @@ const Navbar = () => {
   return (
     <header className="bg-gray-900 text-white shadow-md h-24">
       <nav className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between">
-        {/* Logo/Title on Left */}
         <h1 className="text-2xl sm:text-3xl font-extrabold">Haida's Portfolio</h1>
-
-        {/* Nav Links on Right */}
         <div className="flex space-x-10 text-xl sm:text-2xl font-bold">
           <Link to="/" className="hover:text-blue-400 transition">Home</Link>
           <Link to="/projects" className="hover:text-blue-400 transition">Projects</Link>
