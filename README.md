@@ -52,11 +52,11 @@ This is a modern **React + Vite + Tailwind CSS** single-page application that de
 
 ## Technologies Used
 
-- [React]
-- [React Router v6]
-- [Tailwind CSS]
-- [Vite]
-- [Framer Motion]
+- React
+- React Router v6
+- Tailwind CSS
+- Vite
+- Framer Motion
 
 ## Clone the repository
 
